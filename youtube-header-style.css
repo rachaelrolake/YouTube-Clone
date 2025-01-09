@@ -52,6 +52,12 @@
     padding-left: 12px;
 }
 
+@media (max-width: 500px) {
+    .search-bar {
+        display: none;
+    }
+}
+
 .search-button {
     height: 40px;
     width: 66px;
@@ -141,6 +147,6 @@
 }
 
 .current-user-picture {
-    height: 32px;
-    border-radius: 16px;
+    height: 34px;
+    border-radius: 17px;
 }
